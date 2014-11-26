@@ -1,6 +1,13 @@
-<h1>Listing people</h1>
 
-<table>
+  <h1>Listing people
+   <div class="pull-right">
+       <%= link_to 'New Person', new_person_path, class: "btn btn-info btn-md" %>
+     </div>
+  </h1>
+
+  <hr>
+
+<table class="table">
   <thead>
     <tr>
       <th>First name</th>
@@ -29,7 +36,7 @@
 
 <br>
 
-<%= link_to 'New Person', new_person_path %>
+
 
 <div class="well example">
   <p>
