@@ -10,7 +10,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'spring',        group: :development
 gem 'bcrypt', '~> 3.1.7'
 gem 'rails_12factor', group: :production
-gem 'bootstrap-sass', '~> 3.2.0'
+
 gem 'autoprefixer-rails'
 gem 'faker'
 gem 'bootstrap-sass', '~> 3.3.1'
